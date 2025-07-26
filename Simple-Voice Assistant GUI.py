@@ -77,7 +77,7 @@ def listen_and_speak():
     finally:
         progress.stop()
 
-def start_listenin():
+def start_listening():
     threading.Thread(target=listen_and_speak).start()
 listen_button = tk.Button(
     root, text="Start Listening", font=("Segoe UI", 12),
